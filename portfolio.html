@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="Prof Pic2.ico">
+    <link rel="stylesheet" href="portfolio.css">
+     <script src="portfolio.js"></script>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Shan Swea</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Shan Swea</div>
+        <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+              <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#hobbies" onclick="toggleMenu()">Hobbies</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="Prof Pic2.png" alt="shan profile pic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello I'm</p>
+            <h1 class="title">Shan Swea</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+            <div class="btn-container">
+                <a href="/Project/Portfolio/shan-resume.pdf" target="_blank">
+                    <button class="btn btn-color-1">Download CV</button>  
+                </a>
+                <a href="#contact">
+                    <button class="btn btn-color-2">Contact Me</button>  
+                </a>
+            </div>
+            <div id="socials-container">
+                <img src="github.png" alt="github" class="icon" onclick= "window.open('https://github.com/shanswj','_blank')">
+            </div>
+        </div>
+         <img src="scroll-icon.png" alt="scroll icon" class="icon scroll" onclick="location.href='#about'">
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="Prof.jpg" alt="Prof Pic" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="award.png" alt="experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>2+ years <br>Frontend Development <br> Backend Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="education.png" alt="education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>Forward College Graduate <br> Degree in Software Engineering</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Interested in building simple and responsive websites, with a focus on clean layouts and usability, enjoyment comes from seeing ideas slowly take shape through code and small design decisions, most projects involve working with HTML, CSS, and JavaScript to put together good looking, functional, user friendly, easy to navigate web pages.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="scroll-icon.png" alt="scroll icon" class="icon scroll" onclick="location.href='#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="check-mark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check-mark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check-mark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>React.js</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check-mark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Typescript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check-mark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Bootstrap</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                         <article>
+                            <img src="check-mark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Kotlin</h3>
+                                <p>Baisc</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="check-mark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Node JS</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check-mark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Javascript</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check-mark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check-mark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check-mark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>PHP</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                         <article>
+                            <img src="check-mark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Ruby</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="scroll-icon.png" alt="scroll icon" class="icon scroll" onclick="location.href='#hobbies'">
+    </section>
+       <section id="hobbies">
+      <h1 class="title">Hobbies</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="baking.jpg" alt="Project 1" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Baking</h2>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="cooking.jpg" alt="Project 1" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Cooking</h2>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="coffee2.jpg" alt="Project 1" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Coffee</h2>
+            </div>
+          </div>
+        </div>
+       <img src="scroll-icon.png" alt="scroll icon" class="icon scroll" onclick="location.href='#contact'">
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="email.png" alt="email-icon" class="icon contact-icon">
+                <p><a href="mailto:shan.swea@proton.me">shan.swea@proton.me</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="github.png" alt="github-icon" class="icon contact-icon">
+                <p><a href="https://github.com/shanswj" target="_blank">github.com/shanswj</a></p>
+            </div>
+        </div>
+        <img src="scroll-icon.png" alt="scroll icon" class="icon scroll" onclick="location.href='#desktop-nav'">
+    </section>
+    <footer>
+        <p>Copyright &#169; 2026 Shan Swea. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
